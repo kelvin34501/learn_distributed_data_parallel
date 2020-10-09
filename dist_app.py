@@ -72,3 +72,9 @@ if __name__ == "__main__":
     cprint(f"got {n_gpus}")
     run_demo(demo_basic, n_gpus)
 
+
+# problems
+# data split: How to integrate it with dataloader?
+#             Deadlocks?
+# eval: How to? need one method to sync outputs
+# checkpoints:
